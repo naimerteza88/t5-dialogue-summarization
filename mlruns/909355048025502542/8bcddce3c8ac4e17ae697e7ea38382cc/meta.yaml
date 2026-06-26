@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/final-project/mlruns/909355048025502542/8bcddce3c8ac4e17ae697e7ea38382cc/artifacts
+end_time: 1782448280412
+entry_point_name: ''
+experiment_id: '909355048025502542'
+lifecycle_stage: active
+run_id: 8bcddce3c8ac4e17ae697e7ea38382cc
+run_name: run-lr5e4-bs8
+run_uuid: 8bcddce3c8ac4e17ae697e7ea38382cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782448184821
+status: 3
+tags: []
+user_id: ubuntu

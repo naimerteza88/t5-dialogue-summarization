@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/final-project/mlruns/909355048025502542/4139947d6ac147eb8949fc9430cd9aa5/artifacts
+end_time: 1782448322065
+entry_point_name: ''
+experiment_id: '909355048025502542'
+lifecycle_stage: active
+run_id: 4139947d6ac147eb8949fc9430cd9aa5
+run_name: eval-latest
+run_uuid: 4139947d6ac147eb8949fc9430cd9aa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782448322060
+status: 3
+tags: []
+user_id: ubuntu
