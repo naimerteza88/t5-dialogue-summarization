@@ -1,0 +1,39 @@
+# ----- Data (must NOT be committed; auto-downloaded) -----
+data/*
+!data/.gitkeep
+
+# ----- Models / large artifacts -----
+models/*
+!models/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+!artifacts/evaluation_report.txt
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ----- Virtual environments -----
+.venv/
+venv/
+env/
+ENV/
+
+# ----- HF / training caches & checkpoints -----
+*.ckpt
+checkpoint-*/
+.cache/
+hf_cache/
+
+# ----- OS / editor -----
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ----- NOTE: mlruns/ is intentionally NOT ignored -----
+# MLflow experiment evidence is required by the project guidelines.

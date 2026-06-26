@@ -1,0 +1,20 @@
+# Core ML / Transformers
+torch>=2.0.0
+transformers==4.44.2
+datasets>=2.18.0,<3.0.0
+accelerate>=0.30.0
+sentencepiece>=0.1.99
+py7zr>=0.20.0
+
+# Experiment tracking (2.x keeps the file-store backend used by mlruns/)
+mlflow==2.16.2
+
+# Evaluation
+rouge-score>=0.1.2
+
+# Config & UI
+PyYAML>=6.0
+streamlit>=1.30.0
+
+# Utilities
+numpy<2.0
