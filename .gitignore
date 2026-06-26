@@ -37,3 +37,8 @@ hf_cache/
 
 # ----- NOTE: mlruns/ is intentionally NOT ignored -----
 # MLflow experiment evidence is required by the project guidelines.
+
+# ----- Large MLflow logged model binaries (regenerate via training) -----
+# The run metadata, params, metrics and small artifacts ARE kept; the
+# 230MB model.safetensors exceeds GitHub's 100MB limit and is excluded.
+mlruns/**/model.safetensors
