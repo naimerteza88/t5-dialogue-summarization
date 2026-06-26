@@ -1,0 +1,7 @@
+ROUGE F1 scores on SAMSum test split
+Model: models/t5-samsum/latest
+Examples: 50
+
+rouge1_f: 0.3632
+rouge2_f: 0.1408
+rougeL_f: 0.3059
